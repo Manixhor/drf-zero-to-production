@@ -1,10 +1,11 @@
+
+Welcome to Rest Frame work 
+
 wsgi -> configuration to run from external servers. webserver gateway interface
 urls -> spliting into modules for the reference 
 asgi -> asynchronous server gateway interface at a time runs multiple porocess to run 
 settings -> will have project configuration files and DB 
 
-
-
-
+manage -> cli utility to run the project 
 
 
