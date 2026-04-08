@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'students',
 ]
 
 MIDDLEWARE = [
@@ -80,6 +81,10 @@ DATABASES = {
         #new line added 
         'USER': 'root',
         'PASSWORD': 'root1234',
+        #for local server 
+        'HOST':'localhost',
+        'POST':'3306',
+
 
     }
 }
